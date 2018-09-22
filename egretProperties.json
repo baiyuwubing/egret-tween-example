@@ -1,0 +1,51 @@
+{
+  "engineVersion": "5.2.9",
+  "compilerVersion": "5.2.9",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "commonjs"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "FileSaver",
+      "path": "libs/FileSaver"
+    }
+  ],
+  "targets": {
+    "ios": {
+      "appname": "egret-tween-example",
+      "packagename": "com.lamyoung.egretTweenExample",
+      "hybrid": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TweenEaseSelectViewSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="165ea862c7e"></w:Config>
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" />
+		<e:Scroller width="600" height="1000" horizontalCenter="0" bounces="false" y="235">
+			<e:Group id="gp_item">
+				<e:layout>
+					<e:TileLayout horizontalAlign="center" requestedColumnCount="3" orientation="rows" horizontalGap="0"
+					              verticalGap="0" />
+				</e:layout>
+			</e:Group>
+		</e:Scroller>
+		<e:Button id="btn_close" label="close" y="70" icon="btn_on_png" right="80" />
+		<e:Button id="btn_clear" label="clear" y="70" icon="btn_on_png" left="80" />
+	</e:Group>
+</e:Skin>

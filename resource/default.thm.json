@@ -1,0 +1,30 @@
+{
+	"styles": {
+		"1": {
+			"textColor": "0xffffff",
+			"textAlign": "center",
+			"size": "22"
+		}
+	},
+	"skins": {
+		"eui.Button": "resource/eui_skins/ButtonSkin.exml",
+		"eui.TextInput": "resource/eui_skins/TextInput.exml",
+		"BaseView": "resource/eui_skins/BaseViewSkin.exml",
+		"MainView": "resource/eui_skins/MainViewSkin.exml",
+		"GameView": "resource/eui_skins/GameViewSkin.exml",
+		"TweenExportItem": "resource/eui_skins/TweenExportItemSkin.exml",
+		"TweenEaseSelectView": "resource/eui_skins/TweenEaseSelectViewSkin.exml"
+	},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/BaseViewSkin.exml",
+		"resource/eui_skins/ButtonSkin.exml",
+		"resource/eui_skins/GameViewSkin.exml",
+		"resource/eui_skins/LoadingUISkin.exml",
+		"resource/eui_skins/MainViewSkin.exml",
+		"resource/eui_skins/TextInputSkin.exml",
+		"resource/eui_skins/TweenEaseSelectViewSkin.exml",
+		"resource/eui_skins/TweenExportItemSkin.exml"
+	],
+	"path": "resource/default.thm.json"
+}
